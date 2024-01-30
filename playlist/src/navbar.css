@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-image: linear-gradient(to right, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271% at top right, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100% at top center, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+#nv1{
+    display: flex;
+    margin-left: 20px;
+    font-family: monospace;
+    align-items: center;
+}
+#nv2{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-right: 20px;
+    text-align: none;
+    list-style: none;
+    font-weight: bolder;
+    align-items: center;
+}
+li{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
